@@ -1,3 +1,14 @@
+.test {
+  position: absolute;
+  left: 550px;
+  top: 100px;
+}
+
+#particles-js {
+  margin: 0;
+  height: 950px;
+}
+
 :root {
   --bg-color: #263343;
   --typewriterSpeed: 1s;
@@ -7,7 +18,6 @@
 .head {
   display: grid;
   place-content: center;
-  padding-top: 100px;
 }
 
 section {
@@ -20,7 +30,6 @@ section {
 ul {
   list-style: none;
   margin: 0;
-  padding: 0;
   display: inline-flex;
 }
 
