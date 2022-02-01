@@ -7,8 +7,7 @@
 .head {
   display: grid;
   place-content: center;
-  padding-top: 225px;
-  padding-bottom: 25px;
+  padding-top: 100px;
 }
 
 section {
@@ -31,11 +30,12 @@ li {
 }
 
 .buttonClass {
+  letter-spacing: 2px;
   text-decoration: none;
   display: grid;
   place-content: center;
-  font-size:15px;
-  font-family:Courier New;
+  font-size: 17px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   width:140px;
   height:50px;
   border-width:0px;
@@ -56,12 +56,13 @@ li {
       
 
 .subtitle {
+  letter-spacing: 4px;
   padding-top: 25px;
   display: grid;
   place-content: center;
   color: #EBF3F2;
-  font-size: 2rem;
-  font-weight: 300;
+  font-size: 25px;
+  font-weight: 100;
   opacity: 0;
   transform: translateY(3rem);
   animation: fadeInUp 1s ease calc(var(--typewriterSpeed) + 0.5s) forwards;
@@ -69,19 +70,21 @@ li {
 
 body {
   margin: 0;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: grid;
   text-align: center;
   background: var(--bg-color);
   color: #EBF3F2;
+  font-weight: 100;
 }
 
 h1 {
-  font-size: clamp(1rem, 3vw + 1rem, 4rem);
+  font-size: 125px;
   position: relative;
-  font-family: "Source Code Pro", monospace;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   position: relative;
   width: max-content;
+  letter-spacing: 50px;
 }
 
 h1::before,
