@@ -15,11 +15,6 @@
   --typewriterCharacters: 6;
 }
 
-.head {
-  display: grid;
-  place-content: center;
-}
-
 section {
   display: grid;
   place-content: center;
@@ -66,7 +61,9 @@ li {
 
 .subtitle {
   letter-spacing: 4px;
-  padding-top: 25px;
+  position: absolute;
+  left: 24%;
+  top: 116%;
   display: grid;
   place-content: center;
   color: #EBF3F2;
