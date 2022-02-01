@@ -49,14 +49,14 @@ li {
   height:50px;
   border-width:0px;
   color:#fff;
-  border-color:#566963;
+  border-color:#ffffff;
   border-top-left-radius:0px;
   border-top-right-radius:0px;
   border-bottom-left-radius:0px;
   border-bottom-right-radius:0px;
-  box-shadow:inset 0px 0px 16px 2px #91b8b3;
-  text-shadow:inset 0px 0px 0px #2b665e;
-  background:linear-gradient(#768d87, #6c7c7c);
+  box-shadow:inset 0px 0px 25px 8px #ffffff;
+  text-shadow:inset 0px 0px 0px #ffffff;
+  background:linear-gradient(#263343, #263343);
 }
 
 .buttonClass:hover {
