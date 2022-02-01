@@ -15,7 +15,7 @@ section {
   display: grid;
   place-content: center;
   opacity: 0;
-  animation: fadeInUp 1s ease calc(var(--typewriterSpeed) + 1s) forwards;
+  animation: fadeInUp 1s ease calc(var(--typewriterSpeed) + 0.5s) forwards;
 }
 
 ul {
@@ -64,7 +64,7 @@ li {
   font-weight: 300;
   opacity: 0;
   transform: translateY(3rem);
-  animation: fadeInUp 1s ease calc(var(--typewriterSpeed) + 1s) forwards;
+  animation: fadeInUp 1s ease calc(var(--typewriterSpeed) + 0.5s) forwards;
 }
 
 body {
@@ -97,14 +97,14 @@ h1::after {
 h1::before {
   background: var(--bg-color);
   animation: typewriter var(--typewriterSpeed)
-    steps(var(--typewriterCharacters)) 1s forwards;
+    steps(var(--typewriterCharacters)) 0.25s forwards;
 }
 
 h1::after {
   width: 0.125em;
   background: #EBF3F2;
   animation: typewriter var(--typewriterSpeed)
-      steps(var(--typewriterCharacters)) 1s forwards,
+      steps(var(--typewriterCharacters)) 0.25s forwards,
     blink 750ms steps(var(--typewriterCharacters)) infinite;
 }
 
